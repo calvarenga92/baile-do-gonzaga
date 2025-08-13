@@ -16,3 +16,6 @@ npm run dev
 
 ## Deploy
 Vercel/Netlify: build `npm run build`, publish `dist`.
+
+![Deploy]
+(https://github.com/calvarenga92/baile-do-gonzaga/actions/workflows/pages.yml/badge.svg)
