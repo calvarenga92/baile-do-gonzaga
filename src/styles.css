@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --card: rgb(27, 24, 24); }
+.container-px { @apply px-4 md:px-6; }
+.section { @apply container-px max-w-6xl mx-auto; }
+.card { @apply bg-[color:var(--card)] rounded-2xl shadow-lg border border-zinc-800; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 font-medium transition; }
+.btn-primary { @apply btn bg-brand text-white hover:opacity-90; }
+.btn-ghost { @apply btn bg-transparent hover:bg-zinc-800; }
+.badge { @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs border border-zinc-700 bg-zinc-800; }
+.input { @apply bg-zinc-900 border border-zinc-800 rounded-xl px-3 py-2 w-full; }
+.text-muted { @apply text-zinc-300; }
