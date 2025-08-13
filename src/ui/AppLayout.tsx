@@ -10,11 +10,11 @@ export default function AppLayout() {
           </Link>
           <div className="flex items-center gap-2">
             <NavItem to="/">Início</NavItem>
-            <NavItem to="/integrantes">A Banda</NavItem>
+            <NavItem to="/integrantes">Banda</NavItem>
             <NavItem to="/fotos">Fotos</NavItem>
             <NavItem to="/contato">Contato</NavItem>
             <a className="btn-primary" href="https://wa.me/5511989490162?text=Oi%20Gengibre!%20Quero%20fechar%20um%20Baile%20do%20Gonzaga." target="_blank" rel="noreferrer">
-              Fechar um baile
+              CHAMA
             </a>
           </div>
         </nav>
